@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "561631472236",
+    "project_id": "flutterfirerealtimechatapp",
+    "storage_bucket": "flutterfirerealtimechatapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:561631472236:android:d6547e57126312ad6c4649",
+        "android_client_info": {
+          "package_name": "com.example.fireflutterchatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "561631472236-c0qbp8gubf2vscq2h5op58uib9p8semk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACiDhafGrP0YpJHX-Suh_l96foxLGnQNI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "561631472236-c0qbp8gubf2vscq2h5op58uib9p8semk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "561631472236-5ha511upnk2octs05tcde1ug2pe48vmu.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.flutterfirerealtimechatapp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:561631472236:android:917f8ab65d54acc76c4649",
+        "android_client_info": {
+          "package_name": "com.example.flutterfirerealtimechatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "561631472236-c0qbp8gubf2vscq2h5op58uib9p8semk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACiDhafGrP0YpJHX-Suh_l96foxLGnQNI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "561631472236-c0qbp8gubf2vscq2h5op58uib9p8semk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "561631472236-5ha511upnk2octs05tcde1ug2pe48vmu.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.flutterfirerealtimechatapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

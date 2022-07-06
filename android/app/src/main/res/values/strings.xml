@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Flutter Chat App</string>
+    <string name="facebook_app_id">722306175690957</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="facebook_client_token">0ee9a193afbc1576f89d7ec38a9001ac</string>
+</resources>
