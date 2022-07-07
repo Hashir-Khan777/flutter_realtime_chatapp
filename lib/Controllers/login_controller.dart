@@ -1,5 +1,4 @@
 import 'dart:convert';
-
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:fireflutterchatapp/Views/home.dart';
@@ -48,7 +47,7 @@ class LoginController extends GetxController {
       loading.value = false;
       error.value = e.toString();
     }
-    var future = Future.delayed(Duration(seconds: 4));
+    var future = Future.delayed(const Duration(seconds: 4));
     future.asStream().listen((event) {
       error.value = "";
     });
@@ -91,16 +90,14 @@ class LoginController extends GetxController {
           .get()
           .then((value) {
         loading.value = false;
-        Get.to(Home(
+        Get.offAll(Home(
           user: value.data(),
         ));
       });
     } on FirebaseAuthException catch (e) {
-      print('$e error');
       loading.value = false;
       error.value = '${e.message}';
     } catch (e) {
-      print('$e error');
       loading.value = false;
       error.value = e.toString();
     }
@@ -143,7 +140,7 @@ class LoginController extends GetxController {
           .get()
           .then((value) {
         loading.value = false;
-        Get.to(Home(
+        Get.offAll(Home(
           user: value.data(),
         ));
       });
@@ -154,7 +151,7 @@ class LoginController extends GetxController {
       loading.value = false;
       error.value = e.toString();
     }
-    var future = Future.delayed(Duration(seconds: 4));
+    var future = Future.delayed(const Duration(seconds: 4));
     future.asStream().listen((event) {
       error.value = "";
     });
